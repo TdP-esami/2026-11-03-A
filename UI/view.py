@@ -30,6 +30,7 @@ class View(ft.UserControl):
 
         # riga 1
         self._ddGenre = ft.Dropdown(label="Genere")
+        self._controller.fillDDGenre()
         self._btnCreaGrafo = ft.ElevatedButton(text="Crea grafo",
                                                on_click=self._controller.handleCreaGrafo)
         self._btnStampaInfo = ft.ElevatedButton(text="Stampa Info",
