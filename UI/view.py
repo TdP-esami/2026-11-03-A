@@ -6,7 +6,7 @@ class View(ft.UserControl):
         super().__init__()
         # page stuff
         self._page = page
-        self._page.title = "TdP - Esame del XX Novembre 2026 - Traccia A"
+        self._page.title = "TdP - Esame del 3 Novembre 2026 - Traccia A"
         self._page.horizontal_alignment = 'CENTER'
         self._page.theme_mode = ft.ThemeMode.LIGHT
         # controller (it is not initialized. Must be initialized in the main, after the controller is created)
@@ -25,7 +25,7 @@ class View(ft.UserControl):
 
     def load_interface(self):
         # title
-        self._title = ft.Text("TdP - Esame del XX Novembre 2026 - Traccia A", color="blue", size=24)
+        self._title = ft.Text("TdP - Esame del 3 Novembre 2026 - Traccia A", color="blue", size=24)
         self._page.controls.append(self._title)
 
         # riga 1
